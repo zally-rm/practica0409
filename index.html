@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px"> <!-- primer tabla sin encabezados-->
+        <tr>
+            <td>Lenguaje</td>
+            <td>Año</td>
+            <td>Tipo</td>
+        </tr> <!-- tr para definir cada renglón de la tabla-->
+        <tr>
+            <td>Python</td> <!-- td para cada columna del renglón en cuestión -->
+            <td>2005</td>
+            <td>Multiplataforma</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>1955</td>
+            <td>Multiplataforma</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>1980</td>
+            <td>Multiplataforma</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>1955</td>
+            <td>Multiplataforma</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1px"> <!-- primer tabla con encabezados-->
+        <tr>
+            <th>Lenguaje</th> <!-- th para definir los encabezados de la tabla-->
+            <th>Año</th>
+            <th>Tipo</th>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>2005</td>
+            <td>Multiplataforma</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>1955</td>
+            <td>Multiplataforma</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>1980</td>
+            <td>Multiplataforma</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>1955</td>
+            <td>Multiplataforma</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1px"> <!-- primer tabla con encabezados-->
+        <tr>
+            <td>Horario</td>
+            <td>Actividad</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+        <tr>
+            <td>7:00 a 8:00 am</td>
+            <td>Natación</td>
+            <td colspan="2">*</td> <!-- colspan es para combinar esta celda con las siguientes n celdas-->
+            <td></td>               <!-- un sola línea de código para esas n columnas -->
+            <td></td>
+            <td>*</td>
+        </tr>
+        <tr>
+            <td>8:00 a 9:00 am</td>
+            <td>Curso de Ruby</td>
+            <td></td>
+            <td></td>
+            <td colspan="3">*</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1px">
+        <thead> <!-- Encabezado de la tabla-->
+            <tr>
+                <td colspan="3">Facultad de Contaduría Pública y Administración</td> <!-- tiene que estar dentro de td para considerarse parte de la tabla-->
+            </tr>
+            <tr>
+                <td>Carrera</td>
+                <td>Siglas</td>
+                <td>Año creación</td>
+            </tr>
+        </thead>
+        <tbody> <!-- Cuerpo de la tabla-->
+            <tr>
+                <td>Licenciatura en Tecnologías de Información</td>
+                <td>LTI</td>
+                <td>1978</td>
+            </tr>
+            <tr>
+                <td>Licenciatura en Administración</td>
+                <td>LA</td>
+                <td>1985</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- Pie de la tabla-->
+            <tr>
+                <td colspan="3">Fecha de elaboración: 04/09/2023</td>
+            </tr>
+            <tr>
+                <td colspan="3">Derechos reservados &copy;</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
