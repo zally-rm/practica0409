@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h2>Header</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <li><a href="#">Link 6</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Main</h2>
+        <form action="">
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <div>
+                <label for="fechaNac">Fecha Nacimiento: </label>
+                <input type="date" name="fechaNac" id="fechaNac">
+            </div>
+
+            <div>
+                <label for="foto">Foto perfil: </label>
+                <input type="file" name="foto" id="foto">
+            </div>
+
+            <div>
+                <label for="semestre">Semestre: </label>
+                <input type="range" name="semestre" id="semestre">
+            </div>
+
+            <div>
+                <label for="colorfav">Color favorito: </label>
+                <input type="color" name="colorfav" id="colorfav">
+            </div>
+
+            <div>
+                <label for="semanan">Semana Nac: </label>
+                <input type="week" name="semanan" id="semanan">
+            </div>
+
+            <div>
+                <label for="ob">Observaciones: </label>
+                <textarea type="ob" name="ob" id="ob"></textarea>
+            </div>
+
+            <div>
+                <label for="curso">Curso: </label>
+                <select name="curso" id="curso">
+                    <option value="1">Python</option>
+                    <option value="2">Java</option>
+                    <option value="3">C#</option>
+                    <option value="4">R</option>
+                    <option value="5">Julia</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="curso2">Curso: </label>
+                <select name="curso2" id="curso2" multiple>
+                    
+                    <option value="1">Python</option>
+                    <option value="2">Java</option>
+                    <option value="3">C#</option>
+                    <option value="4">R</option>
+                    <option value="5">Julia</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="curso3">Curso: </label>
+                <select name="curso3" id="curso3">
+                    <option value="1">Python</option>
+                    <option value="2">Java</option>
+                    <option value="3">C#</option>
+                    <option value="4">R</option>
+                    <option value="5">Julia</option>
+                </select>
+            </div>
+        </form>
+    </main>
+    <aside>
+        <h2>Aside</h2>
+    </aside>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
